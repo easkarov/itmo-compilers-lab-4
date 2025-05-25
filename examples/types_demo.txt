@@ -1,0 +1,44 @@
+// Демонстрация работы с разными типами данных, статическая и явная типизация
+
+// Целые числа
+int x = 42;
+int y = 7;
+print(x + y);
+print(x - y);
+print(x * y);
+print(x / y);
+print(x % y);
+
+// Вещественные числа
+float pi = 3.14159;
+float radius = 5.0;
+float area = pi * radius * radius;
+print(area);
+
+// Строки
+string greeting = 'Hello';
+string name = 'World';
+string message = greeting + ' ' + name + '!';
+print(message);
+
+// Смешанные операции
+string number_str = 'Number: ';
+int number = 123;
+print(number_str + number);  // Конкатенация
+
+// Условия
+if (x > y) {
+    print('x больше y');
+} else {
+    print('x не больше y');
+}
+
+// Логические операции
+if (x > 0 && y > 0) {
+    print('Оба числа положительные');
+}
+
+// Повторение строки
+string star = '*';
+int count = 5;
+print(star * count); 

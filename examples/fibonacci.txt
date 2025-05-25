@@ -1,0 +1,15 @@
+int n = 10;
+int a = 0;
+int b = 1;
+int i = 2;
+
+print(a);
+print(b);
+
+while (i <= n) {
+    int temp = a + b;
+    print(temp);
+    a = b;
+    b = temp;
+    i = i + 1;
+} 
